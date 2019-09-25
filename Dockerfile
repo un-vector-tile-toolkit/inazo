@@ -9,6 +9,9 @@ RUN git clone https://github.com/optgeo/geojsons-euroglobalmap &&\
   npm run build-prod-min &&\
   cd .. &&\
   git clone https://github.com/un-vector-tile-toolkit/inazo-produce &&\
+  cd inazo-produce &&\
+  yarn &&\
+  cd .. &&\
   git clone https://github.com/un-vector-tile-toolkit/inazo-host &&\
   cd inazo-host &&\
   yarn &&\
