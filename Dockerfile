@@ -7,6 +7,7 @@ RUN git clone https://github.com/optgeo/geojsons-euroglobalmap &&\
   cd mapbox-gl-js &&\
   npm install &&\
   npm run build-prod-min &&\
+  npm run build-css &&\
   cd .. &&\
   git clone https://github.com/un-vector-tile-toolkit/inazo-produce &&\
   cd inazo-produce &&\
