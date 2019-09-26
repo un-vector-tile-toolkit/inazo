@@ -1,5 +1,5 @@
-# inazo
+# inazo: Dockerfile for unvt/inazo
 
 ![](https://un-vector-tile-toolkit.github.io/signature/logo.png)
 
-Dockerfile for unvt/inazo
+## [How to use](https://hackmd.io/@hfu/inazo-steps)
