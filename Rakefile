@@ -11,6 +11,7 @@ task :armhf do
 end
 
 task :manifest do
+  sh "docker manifest push --purge unvt/inazo:latest"
   sh "docker manifest create --amend unvt/inazo:latest \
     unvt/inazo:armhf unvt/inazo:amd64"
   sh "docker manifest push unvt/inazo:latest"
